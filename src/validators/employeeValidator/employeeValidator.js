@@ -1,5 +1,5 @@
-import ErrorDataResult from "../..utilities/results/errorDataResult.js";
 import BusinessRules from "../../utilities/businessRules/businessRules.js";
+import ErrorDataResult from "../../utilities/results/errorDataResult.js";
 import TypeValidator from "../typeValidator.js";
 import userValidator from "../userValidator/userValidator.js";
 

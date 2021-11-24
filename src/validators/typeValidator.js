@@ -1,11 +1,12 @@
-import ErrorResult from "..utilities/results/errorResult.js";
-import SuccessResult from "..utilities/results/successResult.js";
+import ErrorDataResult from "../utilities/results/errorDataResult.js";
+import ErrorResult from "../utilities/results/errorResult.js";
+import SuccessResult from "../utilities/results/successResult.js";
 
 export default class TypeValidator {
     static name(input, message) {
         const result = new RegExp("[a-zA-Z ]+").test(input);
         if (result === false) {
-            return new ErrorResult(`${message} must consist of alphabet letters.`);
+            return new ErrorDataResult(`${message} must consist of alphabet letters.`);
         }
         return new SuccessResult();
     }

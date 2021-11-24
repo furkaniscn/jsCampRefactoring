@@ -1,5 +1,5 @@
 import { users } from "../data/users.js";
-import ErrorDataResult from "../results/errorDataResult.js";
+import ErrorDataResult from "../utilities/results/errorDataResult.js";
 
 export default class ErrorService {
     constructor() {

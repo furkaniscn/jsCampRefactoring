@@ -1,5 +1,5 @@
-import SuccessResult from "..utilities/results/successResult.js";
 import ErrorDataResult from "../utilities/results/errorDataResult.js";
+import SuccessResult from "../utilities/results/successResult.js";
 
 export default function fieldValidator(entity, requiredFields) {
     let fields = requiredFields.split(",");
