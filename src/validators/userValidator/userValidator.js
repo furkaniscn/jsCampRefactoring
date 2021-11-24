@@ -1,4 +1,4 @@
-import BusinessRules from "../../utilities/businessRules/businessRules.js";
+import BusinessRules from "../../utilities/business/businessRules.js";
 import ErrorDataResult from "../../utilities/results/errorDataResult.js";
 import fieldValidator from "../fieldValidator.js";
 import TypeValidator from "../typeValidator.js";
